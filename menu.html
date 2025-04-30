@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>menu|喫茶雫</title>
+    <meta name="description" content="喫茶雫のメニューをご覧ください。" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon/web-clip-icon -->
+    <link rel="icon" href="favicon.ico" type="image/ico" />
+    <link rel="icon" href="favicon.jpg" type="image/jpg" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="webclip.jpg" />
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="喫茶雫コーポレートサイト" />
+    <meta
+      property="og:url"
+      content="https://zero-plus.io/lesson/ogp/hp_ogp.jpg"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="メニュー｜喫茶雫" />
+    <meta
+      property="og:description"
+      content="喫茶雫のメニューをご覧ください。"
+    />
+    <meta
+      property="og:image"
+      content="https://zero-plus.io/lesson/ogp/hp_ogp.jpg"
+    />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:description"
+      content="喫茶雫のメニューをご覧ください。"
+    />
+    <meta
+      name="twitter:image:src"
+      content="https://zero-plus.io/lesson/ogp/hp_ogp.jpg"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Zen+Maru+Gothic&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+  </head>
+
+  <body>
+    <header class="l_header">
+      <h1 class="l_header-logo">
+        <a href="index.html" class="l_header-logo_link">喫茶雫</a>
+      </h1>
+      <nav class="l_header-nav js_navigation">
+        <ul class="l_header-nav_list">
+          <li class="l_header-nav_item">
+            <a href="index.html#Concept" class="l_header-nav_link">Concept</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="menu.html" class="l_header-nav_link">Menu</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="index.html#NEWS" class="l_header-nav_link">News</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="index.html#shop" class="l_header-nav_link">Shop info</a>
+          </li>
+          <li class="l_header-nav_item">
+            <a href="index.html#contact" class="l_header-nav_link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="m_hamburger js_hamburger">
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+      </button>
+    </header>
+    <section class="top_kv menu_kv">
+      <div class="top_kv-inner ">
+        <div class="top_kv_box">
+          <p class="top_kv_copy js_copy menu_kv_copy">
+            MENU
+          </p>
+          <!-- /.top_kv_btn-wrapper -->
+        </div>
+         <div class="menu_kv_img">
+              <div class="swiper-wrapper">
+                <div class="top_kv-slideshow_slide swiper-slide">
+                 
+                </div>
+                <!-- /.top_kv-slideshow_slide -->
+              </div>
+              <!-- /.swiper-wrapper -->
+              <!-- 適切なaltタグは、画像の内容を正確に表現することが重要です。ただし、装飾用の画像（例：デザインの一部としてのアイコンや装飾）の場合は、altタグを空にすることもあります。 -->
+           
+            <!-- /.top_kv-slideshow -->
+        </div>
+        <!-- /.top_kv_box -->
+      
+    </section>
+    <main class="menu_main">
+      <div class="l_container-lg">
+        <div class="l_contents-lg">
+          <section class="menu_section" id="Coffee & Beverage">
+            <h2 class="menu_title js_menu-trigger">Coffee & Beverage</h2>
+            <div class="menu_items-wrapper">
+              <div class="menu_item js_menu_item">
+                <div class="menu_img-wrapper">
+                  <img
+                    src="img/coffee.jpg"
+                    alt="コーヒー"
+                    class="menu_img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_type">ハンドドリップコーヒー</div>
+                <div class="menu_content">
+                  <div class="menu_name">オリジナルブレンド（深煎り）</div>
+                  <p class="menu_price">￥680</p>
+                </div>
+                <div class="menu_content">
+                  <div class="menu_name">シングルオリジン</div>
+                  <p class="menu_price">￥780</p>
+                </div>
+                <p class="menu_country">エチオピア、ケニアなど</p>
+              </div>
+              <div class="menu_item js_menu_item">
+                <div class="menu_img-wrapper">
+                  <img
+                    src="img/latte.jpg"
+                    alt="カフェラテ"
+                    class="menu_img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_content">
+                  <div class="menu_name">カフェラテ/キャラメルラテ/モカ</div>
+                  <p class="menu_price">￥750</p>
+                </div>
+                <p class="menu_ex">フォーム調整可</p>
+                <div class="menu_content">
+                  <div class="menu_name">デカフェ/アフォガート</div>
+                  <p class="menu_price">￥750</p>
+                </div>
+                <p class="menu_ex">カフェイン控えめにも対応</p>
+                <div class="menu_content">
+                  <div class="menu_name">水出しコーヒー（Cold/Hot）</div>
+                  <p class="menu_price">￥680</p>
+                </div>
+                <p class="menu_ex">12時間抽出のまろやかさ</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="menu_section" id="Lunch">
+            <h2 class="menu_title js_menu-lunch-trigger">Lunch</h2>
+            <div class="menu_items-wrapper">
+              <div class="menu_item js_menu_lunch-item">
+                <div class="menu_img-wrapper">
+                  <img
+                    src="img/sandwich.jpg"
+                    alt="たまごと厚切りハムのサンドイッチ"
+                    class="menu_img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_content">
+                  <div class="menu_name">たまごと厚切りハムのサンドイッチ</div>
+                  <p class="menu_price">￥980</p>
+                </div>
+                <p class="menu_ex">サラダ・ピクルス付</p>
+              </div>
+              <div class="menu_item js_menu_lunch-item">
+                <div class="menu_img-wrapper">
+                  <img
+                    src="img/beef.jpg"
+                    alt="ローストビーフと彩り野菜の贅沢プレート"
+                    class="menu_img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_content">
+                  <div class="menu_name">
+                    ローストビーフと彩り野菜の贅沢プレート
+                  </div>
+                  <p class="menu_price">￥1,680</p>
+                </div>
+              </div>
+              <div class="menu_item js_menu_lunch-item">
+                <div class="menu_img-wrapper">
+                  <img
+                    src="img/lasagna.jpg"
+                    alt="季節のラザニアランチセット"
+                    class="menu_img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_content">
+                  <div class="menu_name">季節のラザニアランチセット</div>
+                  <p class="menu_price">￥1,480</p>
+                </div>
+                <p class="menu_ex">パン・サラダ付</p>
+              </div>
+              <div class="menu_item js_menu_lunch-item">
+                <div class="menu_img-wrapper">
+                  <img
+                    src="img/opensand.jpg"
+                    alt="サーモンとアボカドのオープンサンド"
+                    class="menu_img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_content">
+                  <div class="menu_name">
+                    サーモンとアボカドのオープンサンド
+                  </div>
+                  <p class="menu_price">￥1,580</p>
+                </div>
+                <p class="menu_ex">スープ・デリ付</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="menu_section" id="Sweets">
+            <h2 class="menu_title js_menu-sweet-trigger">Sweet</h2>
+            <div class="menu_items-wrapper">
+              <div class="menu_item js_menu_sweet-item">
+                <div class="menu_img-wrapper">
+                  <img
+                    src="img/cheezecake.jpg"
+                    alt="リッチチーズケーキ"
+                    class="menu_img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_content">
+                  <div class="menu_name">リッチチーズケーキ</div>
+                  <p class="menu_price">￥700</p>
+                </div>
+                <p class="menu_txt">
+                  サワークリームとクリームチーズの濃厚な口溶け。<br />
+                  シンプルで贅沢な王道スイーツ。
+                </p>
+              </div>
+              <div class="menu_item js_menu_sweet-item">
+                <div class="menu_img-wrapper">
+                  <img
+                    src="img/pudding.jpg"
+                    alt="クラシックプリン"
+                    class="menu_img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_content">
+                  <div class="menu_name">クラシックプリン</div>
+                  <p class="menu_price">￥650</p>
+                </div>
+                <p class="menu_txt">
+                  昔ながらの“かため”食感。こだわり卵とミルクで<br />
+                  仕上げた、ほろ苦カラメル香るお店自慢のプリン。<br />
+                  お子さまから大人までファンの多い一品。
+                </p>
+              </div>
+              <div class="menu_item js_menu_sweet-item">
+                <div class="menu_img-wrapper">
+                  <img
+                    src="img/pancake.jpg"
+                    alt="季節のパンケーキ"
+                    class="menu_img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_content">
+                  <div class="menu_name">季節のパンケーキ</div>
+                  <p class="menu_price">￥1,080</p>
+                </div>
+                <p class="menu_ex">
+                  <span class="menu_ex-highlight"
+                    >季節のフルーツ、チョコソース、</span
+                  ><br />
+                  アイスクリーム
+                </p>
+                <p class="menu_txt">
+                  注文を受けてから丁寧に焼き上げる厚みのある<br />
+                  パンケーキ。<br />
+                  外カリ中ふわの食感に、自家製メープルバター<br />
+                  と季節のフルーツを添えて。
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="menu_section" id="Seasonal">
+            <h2 class="menu_title js_menu-seasonal-trigger">Seasonal</h2>
+            <div class="menu_seasonal-items-wrapper">
+              <div class="menu_seasonal-item ">
+                <div class="menu_seassonal-img-wrapper  js_menu_seasonal-img">
+                  <img
+                    src="img/seasonal_spring.jpg"
+                    alt="3月-5月　デコポンのあんみつ"
+                    class="menu_seasonal-img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_seasonal-type">
+                  <div class="menu_seasonal_content">
+                    <div class="menu_name">3月-5月　デコポンのあんみつ</div>
+                    <p class="menu_price">￥680</p>
+                  </div>
+                  <p class="menu_ex">甘酸っぱく、爽やかな味わい</p>
+                </div>
+              </div>
+              <div class="menu_seasonal-item ">
+                <div class="menu_seassonal-img-wrapper  js_menu_seasonal-img">
+                  <img
+                    src="img/seasonal_saummer.jpg"
+                    alt="6月-8月　桃とラベンダーのソーダ"
+                    class="menu_seasonal-img"
+                    width="323"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_seasonal-type">
+                  <div class="menu_seasonal_content">
+                    <div class="menu_name">6月-8月　桃とラベンダーのソーダ</div>
+                    <p class="menu_price">￥620</p>
+                  </div>
+                  <p class="menu_ex">涼感たっぷりの一杯</p>
+                </div>
+              </div>
+              <div class="menu_seasonal-item">
+                <div class="menu_seassonal-img-wrapper  js_menu_seasonal-img">
+                  <img
+                    src="img/seasonal_autumn.jpg"
+                    alt="9月-11月　かぼちゃプリン"
+                    class="menu_seasonal-img"
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_seasonal-type">
+                  <div class="menu_seasonal_content">
+                    <div class="menu_name">9月-11月　かぼちゃプリン</div>
+                    <p class="menu_price">￥580</p>
+                  </div>
+                  <p class="menu_ex">香ばしいカラメルと濃厚かぼちゃ</p>
+                </div>
+              </div>
+              <div class="menu_seasonal-item">
+                <div class="menu_seassonal-img-wrapper js_menu_seasonal-img">
+                  <img
+                    src="img\seasonal_winter.jpg"
+                    alt="12月-2月　ホットチョコレート
+                    （マシュマロ入り）"
+                    class="menu_seasonal-img"  
+                    width="343"
+                    height="224"
+                  />
+                </div>
+                <div class="menu_seasonal-type">
+                  <div class="menu_seasonal_content">
+                    <div class="menu_name">
+                      12月-2月　ホットチョコレート<br />
+                      （マシュマロ入り）
+                    </div>
+                    <p class="menu_price">￥600</p>
+                  </div>
+                  <p class="menu_ex">2種類のチョコレートを使用</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <section class="CTA" id="CTA">
+      
+      <div class="single_contents">
+        <div class="CTAinfo">
+          <h1 class="sns-top-title"><span>ご予約の際は当店のSNSかこちらの<br />電話番号までご連絡下さい</span></h1>
+
+          <p class="phone">TEL.000-000-0000</p>
+          <p class="time">受付時間 10：00～18：00（土日祝は除く）</p>
+        </div>
+        <div class="sns-wrapper">
+          <p class="sns-label">SNS</p>
+          <ul class="sns-icons">
+            <li><a class="icon insta-icon" href="#">
+                <img src="img/insta 1.png" alt="インスタグラムアイコン">
+              </a></li>
+            <li><a class="icon line-icon" href="#">
+                <img src="img/IMG_6963.png" alt="ラインアイコン">
+              </a></li>
+            <li><a class="icon twitter-icon" href="#">
+                <img src="img/IMG_6964.png" alt="Xアイコン">
+              </a></li>
+          </ul>
+      </div>
+
+      </div>
+    
+</section>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <a class="logo-text" href="index.html">喫茶 雫</a>
+          <img class="coffee" src="img/image 3.png" alt="コーヒー">
+        </div>
+        
+        <nav class="footer-nav">
+  <ul class="footer_nav-list">
+    <li><a href="#Concept" class="footer-nav-link" data-text="Concept">Concept</a></li>
+    <li><a href="#NEWS" class="footer-nav-link" data-text="News">News</a></li>
+    <li><a href="#shop" class="footer-nav-link" data-text="Shop Info">Shop Info</a></li>
+    <li><a href="#contact" class="footer-nav-link" data-text="Contact">Contact</a></li>
+  </ul>
+  <div class="vertical_bar"></div>
+  <div class="footer-nav-right">
+    <ul class="footer_menu-list">
+      <li><a class="footer-nav-link" href="menu.html" data-text="Menu">Menu</a></li>
+      <li><a class="footer-nav-link" href="menu.html#Coffee & Beverage" data-text="Coffee & Beverage">Coffee & Beverage</a></li>
+      <li><a class="footer-nav-link" href="menu.html#Lunch" data-text="Lunch">Lunch</a></li>
+      <li><a class="footer-nav-link" href="menu.html#Sweets" data-text="Sweets">Sweets</a></li>
+      <li><a class="footer-nav-link" href="menu.html#Seasonal" data-text="Seasonal">Seasonal</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="overlay"></div>
+
+      <div class="bird">
+            <img src="img/image 1.png" alt="鳥">
+          </div>
+      </div>
+      <div class="copyright">©喫茶 雫</div>
+    </footer>
+  </body>
+</html>
